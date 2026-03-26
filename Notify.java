@@ -46,13 +46,18 @@ public class Notify {
         n=new SMS("Arjun","Happy Birthday!!!");
         n.send();
         n.receive();
-        n=new Email("Teja","Thank you!!!");
-        n.send();
+        //n=new Email("Teja","Thank you!!!");
+        //n.send();
         Email e=new Email("Anisha", "Sorry...");
         e.send();
         e.change();
         e.send();
         e.receive();
+        Notification m[]={n,e};
+        for(Notification i:m){
+            i.send();
+            System.out.println("----------------");
+        }
 
     }
 }

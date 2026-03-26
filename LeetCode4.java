@@ -1,3 +1,4 @@
+
 public class LeetCode4 {
     public String interpret(String command) {
         StringBuilder sb = new StringBuilder();
@@ -35,7 +36,7 @@ public class LeetCode4 {
 
     public boolean detectCapitalUse(String s) {
         int cnt = 0;
-        for (int c : s.toCharArray()) {
+        for (char c : s.toCharArray()) {
             if (Character.isUpperCase(c))
                 cnt++;
         }

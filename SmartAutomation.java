@@ -105,6 +105,8 @@ public class SmartAutomation {
         // Actions
         Action lightOn = new turnOnAction(light);
         Action acOn = new turnOnAction(ac);
+
+        //
         Action lightOff = new turnOffAction(light);
         Action acOff = new turnOffAction(ac);
 

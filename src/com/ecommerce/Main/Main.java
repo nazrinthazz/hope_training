@@ -10,3 +10,5 @@ public class Main {
         service.placeOrder(o);
     }
 }
+// PS C:\Users\nthas\OneDrive\Documents\Java> javac -d . src\com\ecommerce\Main\Main.java
+//PS C:\Users\nthas\OneDrive\Documents\Java> java src.com.ecommerce.Main.Main 

@@ -8,7 +8,7 @@ public class setExample {
             Lset.add(n);
             Hset.add(n);
         }
-        System.out.println(Lset);
-        System.out.println(Hset);
+        System.out.println(Lset);//SAME AS INPUT
+        System.out.println(Hset);//NOT ORDERED
     }
 }

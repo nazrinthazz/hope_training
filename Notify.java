@@ -1,3 +1,5 @@
+import EmailSystem.Email.Email;
+
 class Notification {
     String name;
     String message;

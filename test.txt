@@ -1,0 +1,2 @@
+write using Buffered writer
+write using Buffered writer

@@ -66,9 +66,7 @@ public class LeetCode {
         }
         return max;
     }
-
     
-
     public int arraySign(int[] nums) {
         int res=1;
         for (int n : nums) {
@@ -77,8 +75,6 @@ public class LeetCode {
         }
         return res;
     }
-
-    
 
     public String categorizeBox(int length, int width, int height, int mass) {
         long v=1L*length*width*height;//to change it into long

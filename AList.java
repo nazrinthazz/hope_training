@@ -8,7 +8,7 @@ public class AList {
                 i--;
             }
         }
-            System.out.print(list);
+        System.out.print(list);
 
     }
 }

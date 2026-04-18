@@ -46,9 +46,8 @@ class Driver extends User{
         System.out.println("Driver class role:"+role);
         System.out.println("user class role:"+super.role);
     }
-    
-
 }
+
 public class Application {
     public static void main(String[] args){
         User u=new User("Arjun","FoodUser");
